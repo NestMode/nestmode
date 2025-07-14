@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NestMode</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #F5EFE7;
+      color: #5E564E;
+    }
+    header {
+      background-color: #F5EFE7;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #E0D9D0;
+      padding: 0.75rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #5E564E;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .product {
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid #DDD5CA;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #E0D9D0;
+      color: #5E564E;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>NestMode</header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to NestMode</h2>
+    <p>Your cozy corner for modern, earthy, and elegant furniture and home décor. Create the nest you’ll never want to leave.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At NestMode, we believe in intentional living through curated design. Our handpicked collections reflect a balance of warmth, luxury, and simplicity — helping homeowners and apartment dwellers alike craft spaces that feel personal, stylish, and timeless.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Interior styling consultation</li>
+      <li>Custom furniture design</li>
+      <li>Seasonal home décor setups</li>
+      <li>Virtual room planning</li>
+    </ul>
+  </section>
+
+  <section id="products">
+    <h2>Shop Our Products</h2>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <div>
+        <h3>Modern Boho Armchair</h3>
+        <p>Earth-tone armchair with organic fabric texture and wooden legs.</p>
+      </div>
+      <strong>$250</strong>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/150" alt="Product Image">
+      <div>
+        <h3>Neutral Linen Sofa</h3>
+        <p>Comfortable 3-seater in soft beige, perfect for modern minimalist homes.</p>
+      </div>
+      <strong>$680</strong>
+    </div>
+
+    <!-- You can add more product sections below -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: hello@nestmode.com</p>
+    <p>Instagram: @nestmode</p>
+    <p>Phone: +1 (800) 123-4567</p>
+  </section>
+
+  <footer>
+    &copy; 2025 NestMode. All rights reserved.
+  </footer>
+
+</body>
+</html>
